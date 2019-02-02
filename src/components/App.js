@@ -8,9 +8,9 @@ class App extends Component {
       <div>
         <Router>
           <div>
-            <Route exact path="/" render={props => <Api />} />
-            <Route path="/Devloper" component={Devloper} />
-            <Route path="/Api" component={Api} />
+            <Route exact path={"/"} component={Api} />
+            <Route path={"/Devloper"} component={Devloper} />
+            <Route path={"/Api"} component={Api} />
             {/* <Route path="/Cartnew" component={Cartnew} /> */}
 
           </div>
